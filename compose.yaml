@@ -1,0 +1,6 @@
+services:
+  manager:
+    container_name: manager
+    build: .
+    ports:
+      - 3000:3000
